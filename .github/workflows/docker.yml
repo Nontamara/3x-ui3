@@ -47,5 +47,5 @@ jobs:
         context: .
         push: true
         platforms: linux/amd64
-        tags: ${{ env.REGISTRY }}/${{ env.REPOSITORY_NAME }}:latest
+        tags: ghcr.io/${{ github.repository }}:latest
         labels: ${{ steps.meta.outputs.labels }}
