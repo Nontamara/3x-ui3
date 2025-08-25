@@ -47,5 +47,5 @@ jobs:
         context: .
         push: true
         platforms: linux/amd64
-        tags: ghcr.io/${{ github.repository }}:latest
+        tags: ghcr.io/nontamara/3x-ui3:latest
         labels: ${{ steps.meta.outputs.labels }}
